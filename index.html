@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task</title>
+    <style>
+      body {
+        background-image: url(portal.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .helo {
+        position: relative;
+        margin-top: 40px;
+        margin-left: 70px;
+        height: 90vh;
+        width: 90vw;
+        border-radius: 20px;
+        box-shadow: 0px 0px 40px 10px;
+      }
+
+      .link {
+        color: white;
+        text-decoration: none;
+        margin-right: 15px;
+
+        font-size: larger;
+      }
+      #links {
+        position: absolute;
+        right: 0;
+        margin-top: 20px;
+        margin-right: 60px;
+      }
+
+      #btn {
+        color: none;
+        border: none;
+      }
+      #logo {
+        position: absolute;
+        left: 0;
+        margin-left: 60px;
+        margin-top: 20px;
+      }
+      #logog {
+        color: white;
+        font-weight: bolder;
+        font-size: larger;
+      }
+      #motto {
+        color: white;
+        font-size: 40px;
+        position: absolute;
+        top: 19%;
+        left: 60px;
+      }
+      #mottobelow {
+        color: white;
+        position: absolute;
+        top: 42%;
+        left: 60px;
+      }
+      .login {
+        font-size: 20px;
+        position: absolute;
+        color: white;
+        top: 53%;
+        left: 80px;
+        background: none;
+        border: 1px solid;
+        border-radius: 10px;
+        padding: 10px;
+      }
+
+      #llogin :hover {
+        cursor: pointer;
+      }
+    </style>
+    <script
+      src="https://kit.fontawesome.com/b99733304d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="helo">
+      <div id="logo">
+        <p id="logog">TASK</p>
+      </div>
+      <div id="links">
+        <a class="link" href="home">home</a>
+        <a class="link" href="contact us">contact us </a>
+        <a class="link" href="access">access</a>
+        <button type="menu" id="btn">
+          <i class="fa-solid fa-bars" style="color: #0467fb"></i>
+        </button>
+      </div>
+      <div id="motto">
+        <p>
+          THE PORTAL <br />
+          TO SIMPLIFIED <br />
+          SERVICES
+        </p>
+      </div>
+      <div id="mottobelow">
+        <p>
+          A platform for service providers <br />
+          that handles payment processing <br />
+          appointment scheduling
+        </p>
+      </div>
+      <div>
+        <a href="formbasic.html" id="llogin"
+          ><button type="submit" class="login" onclick="">REGISTER</button></a
+        >
+      </div>
+    </div>
+  </body>
+</html>
